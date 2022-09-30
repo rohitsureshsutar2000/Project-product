@@ -1,0 +1,31 @@
+<div class="container">
+
+    
+    <form  [formGroup]="userForm" (ngSubmit)="userSumbit()">
+        <div class="col-lg-4 mt-2">
+            <input type="text" class="form-control" formControlName="productid" placeholder="Enter Product id">
+        </div>
+
+        <div class="col-lg-4 mt-2">
+            <input type="text" class="form-control" formControlName="productname" placeholder="Enter Product Name">
+        </div>
+
+        <div class="col-lg-4 mt-2">
+            <input type="text" class="form-control" formControlName="producttype" placeholder="Enter Product Type">
+        </div>
+
+        <div class="col-lg-4 mt-2">
+            <input type="text" class="form-control" formControlName="productcategory" placeholder="Enter Product Category">
+        </div>
+
+        <div class="col-lg-4 mt-2">
+            <input type="text" class="form-control" formControlName="productprice" placeholder="Enter Product Price">
+        </div>
+
+        <div class="col-lg-4">
+            <button class="btn btn-primary btn-sm">Create</button>
+        </div>
+
+    </form>
+
+</div>

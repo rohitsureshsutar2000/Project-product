@@ -1,0 +1,25 @@
+<div class="container" mt-5>
+
+    <table class="table" table-bordered>
+        <thead>
+          <tr>
+            <th scope="col">Product Id</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Product Type</th>
+            <th scope="col">Product Category</th>
+            <th scope="col">Product Price</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor = 'let us of readData'>
+            <th scope="row">{{us.productid}}</th>
+            <td>{{us.productname}}</td>
+            <td>{{us.producttype}}</td>
+            <td>{{us.productcategory}}</td>
+            <td>{{us.productprice}}</td>
+          </tr>
+          
+        </tbody>
+      </table>
+
+</div>
