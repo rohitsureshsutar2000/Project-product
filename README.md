@@ -1,2 +1,2 @@
 # Project-product
-You can check code but their is connection problem project is incompelete, i got some error  
+You can check code is ready but their is only connection problem  
